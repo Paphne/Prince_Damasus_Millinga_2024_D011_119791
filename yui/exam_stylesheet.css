@@ -1,0 +1,73 @@
+body {
+    background-color: #008080;
+    color: white;
+    scroll-behavior: smooth;
+}
+.section-home {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.section-about me {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.section-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+.hero-content p {
+    font-size: 1.2rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+.course-card {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.course-card:hover {
+    transform: scale(1.05);
+}
+.course-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.course-card-body {
+    background-color: #f8f9fa;
+    padding: 15px;
+    color: #fff;
+}
+#courses-section {
+    background-color: #f8f9fa;
+}
+#contact-section {
+    background-color: #1a1a1a;
+    color: white;
+}
+.course-card-body h5 {
+    margin-bottom: 10px;
+}
+.btn-read-more {
+    background-color: #333;
+    color: #fff;
+}
+.btn-read-more:hover {
+    background-color: #333;
+    color: #fff;
+}
